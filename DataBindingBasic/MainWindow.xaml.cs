@@ -1,4 +1,4 @@
-﻿using System.Windows;
+using System.Windows;
 
 namespace DataBindingBasic
 {
@@ -10,7 +10,6 @@ namespace DataBindingBasic
         public MainWindow()
         {
             InitializeComponent();
-            this.DataContext = new ConfigPanel(50);
         }
     }
 }
